@@ -13,7 +13,7 @@ class MyProfileViewModel: ObservableObject {
     @Published var userFollowers: String = ""
     
     var profile = Profile(
-        picture: "rodrigo_queiroz",
+        picture: "person.crop.square.fill",
         name: "Rodrigo Queiroz",
         nick: "@rodrigoqueiroz",
         followers: 22643

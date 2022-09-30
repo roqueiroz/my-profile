@@ -29,9 +29,8 @@ struct ProfileInfoView: View {
     
     var body: some View {
         
-        Image(viewModel.profile.picture)
+        Image(systemName: viewModel.profile.picture)
             .resizable()
-            .cornerRadius(150)
             .frame(width: 250, height: 250)
             .padding(.bottom, 10)
         
